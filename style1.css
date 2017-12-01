@@ -1,3 +1,30 @@
-body{ background-color: yellow;
+body{   width: 100%;
+    height: auto;
     background-image: url(5.jpg);
+    background-size: cover;
     }
+a {
+        display: block;
+        background-color: cyan;
+  }
+p.s1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;  
+    background: rgba(52, 100, 155, 0.3)
+}
+p.s2 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+p.t1 {
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+img { 
+    width:55%; 
+    float: center;
+}
+

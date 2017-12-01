@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <title>Făgăraș</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="style1.css" type="text/css" rel="stylesheet" >
 <style>
@@ -20,9 +21,11 @@ html {
     font-family: "Lucida Sans", sans-serif;
 }
 .header {
-    background-color: #1213cc;
+    background-color: #0ab86f;
     color: #ffffff;
-    padding: 15px;
+    padding: 19px;
+    opacity: 0.6;
+    text-indent: 150px;  
 }
 .menu ul {
     list-style-type: none;
@@ -30,36 +33,41 @@ html {
     padding: 0;
 }
 .menu li {
-    padding: 8px;
-    margin-bottom: 7px;
-    background-color: #33b5e5;
+    padding: 18px;
+    margin-bottom: 40px;
+    background-color: #12c22a;
+    text-align: center;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .menu li:hover {
-    background-color: #0099cc;
+    background-color: #00cc66;
+    transform: rotate(7deg);
+    padding: 23px;
 }
 .aside {
-    background-color: #33b5e5;
-    padding: 15px;
+    background-color: #1eb851;
+    padding: 17px;
     color: #ffffff;
     text-align: center;
-    font-size: 14px;
+    font-size: 23px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    opacity: 0.9;
 }
 .footer {
-    background-color: #0099cc;
+    background-color: #05ad2f;
     color: #ffffff;
     text-align: center;
-    font-size: 12px;
-    padding: 15px;
+    font-size: 16px;
+    padding: 20px;
+    opacity: 0.6;
 }
-/* For mobile phones: */
+
 [class*="col-"] {
     width: 100%;
 }
 @media only screen and (min-width: 768px) {
-    /* For tablets: */
+
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
     .col-m-3 {width: 25%;}
@@ -74,7 +82,7 @@ html {
     .col-m-12 {width: 100%;}
 }
 @media only screen and (min-width: 1280px) {
-    /* For desktop: */
+
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -92,41 +100,50 @@ html {
 </head>
 <body>
 <div class="header">
-  <h1>Făgăraș</h1>
+  <p class="t1">Făgăraș</p>
 </div>
 
 <div class="row">
 
 <div class="col-3 col-m-3 menu">
   <ul>
-    <li>Prezentare Generala </li> 
-    <li>Istoricul Orasului</li>
-    <li>Muzeul Fagarasului</li>
-    <li>Cetatea Fagarasului</li>
-    <li>Adrese Utile</li>
+    <li><a href="leg2.html" target="_blank">Prezentarea Orașului</a> </li> 
+    <li><a href="leg3.html" target="_blank">Istoricul Orasului</a></li>
+    <li><a href="leg1.html" target="_blank">Muzeul Țării Fagarasului</a></li>
+    <li><a href="leg4.html" target="_blank">Cetatea Fagarasului</a></li>
+    <li><a href="http://fagaras-city.map2web.eu/" target="_blank">Harta Intercativă</a></li>
   </ul>
 </div>
 
 <div class="col-6 col-m-9">
-  <h1>The City</h1>
-  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+  <p class="s1">Făgăraș (în maghiară Fogaras, în germană Fogarasch) este un municipiu în județul Brașov, Transilvania, România.
+        Municipiul Făgăraş, veche aşezare urbană şi puternic centru comercial, având coordonatele 45°51' latitudine nordică şi 
+        24°S1' longitudine estică, este situat în partea central nordică a depresiunii cu acelaşi nume, delimitată natural de Munţii
+         Făgăraşului (cei mai înalţi munţi din ţară) şi de cei ai Persanilor, precum şi de răul Olt.
+        Localitatea este aşezată pe terasă, relativ joasă, de pe malul stâng al Oltului, tăiată de vechea albie a pârâului Berivoi care
+         curge acum pe la vestul localităţii (devierea fiind efectuată în cadrul marilor amenajări prevăzute de programul de apărare a 
+         oraşului de inundaţii), în urma incorporării satului Galaţi la Făgăraş , teritoriul municipiului cuprinde acum şi zona de pe 
+         malul drept al Oltului.
+  </p>
 </div>
 
 <div class="col-3 col-m-12">
   <div class="aside">
-    <h2>What?</h2>
-    <p>Chania is a city on the island of Crete.</p>
-    <h2>Where?</h2>
-    <p>Crete is a Greek island in the Mediterranean Sea.</p>
-    <h2>How?</h2>
-    <p>You can reach Chania airport from all over Europe.</p>
+    <p class="s2">Stema Orașului</p>
+    <img src="stema.jpg" alt="Stema">
+    <p class="s2">Localizare în cadrul județului</p>
+    <img src="loc1.jpg" alt="Localizare">
+    <p class="s2">Suprafață     36,41 km² </p>
+    <p class="s2">Populaţie     30714 locuitori</p>
+    <p class="s2">Densitate	    778,08 loc./km²</p>
+    <p class="s2">Cod poştal	505200</p>
   </div>
 </div>
 
 </div>
 
 <div class="footer">
-  <p>Resize the browser window to see how the content respond to the resizing.</p>
+  <p>© 2017 Municipiul Făgăraş, All Rights Reserved!</p>
 </div>
 
 </body>
